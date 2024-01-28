@@ -2,6 +2,16 @@
 
 /* CONFIGURAÇÃO MOBILE FIRST */
 
+/* 
+    PALETA DE CORES:
+
+    - #1B4039
+    - #36593F
+    - #598C4A
+    - #D9D3B8
+    - #F2EFDCs
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -33,7 +43,6 @@ section{
     border-radius: 20px;
     
     filter: drop-shadow(2px 2px 5px black);
-    box-shadow: inset 1px 1px 1px black;
 }
 
 div#image-container{
@@ -47,7 +56,7 @@ div#image-container{
 
 div#forms-container{
     text-align: center;
-    padding: 10%;
+    padding: 5%;
 }
 
 div#forms-container h1{
@@ -55,9 +64,6 @@ div#forms-container h1{
     padding: 3%;
 }
 
-div#forms-container h1, div#forms-container p:nth-child(3){
-    margin-bottom: 3%;
-}
 
 div#forms-container label{
     display: block;
@@ -97,9 +103,3 @@ div#forms-container input#submit-button{
 div#forms-container input#submit-button:hover{
     background-color: #598C4A;
 }
-    
-
-
-
-
-

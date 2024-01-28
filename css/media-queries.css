@@ -2,3 +2,83 @@
 
 /* CONFIGURAÇÃO DE OUTRAS MÍDIAS */
 
+/* 
+    ----- DEVICE BREAKPOINTS -----
+
+    - Telefone: -768px
+    - Tablet:   768px até 992px
+    - Desktop:  992px até 1200px
+    - Tv:       +1200px
+*/
+
+/* 
+    PALETA DE CORES:
+
+    - #1B4039
+    - #36593F
+    - #598C4A
+    - #D9D3B8
+    - #F2EFDCs
+*/
+
+
+@media screen and (min-width: 768px) and  (max-width: 992px){
+
+    body{
+        background-image: linear-gradient(to bottom, #598C4A, #36593F);
+    }
+    
+    section{
+        width: 768px;
+        
+    }
+
+    section > div{
+        display: inline-block;
+    }
+
+    div#image-container{
+        height: 100%;
+        width: 50%;
+        border-radius: 20px 0 0 20px;
+    }
+    
+    div#forms-container{
+        position: absolute;
+        top: 5%;
+
+        width: 49%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to bottom, #598C4A, #36593F);
+    }
+    
+    section{
+        width: 992px;
+    }
+
+    section > div{
+        display: inline-block;
+    }
+
+    div#image-container{
+        height: 100%;
+        width: 60%;
+        border-radius: 20px 0 0 20px;
+    }
+    
+    div#forms-container{
+        position: absolute;
+        top: 5%;
+
+        width: 39%;
+    }
+
+    div#forms-container label{
+        margin-top: 7%;
+    }
+    
+}
