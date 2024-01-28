@@ -23,7 +23,7 @@ body{
 section{
     background-color: #D9D3B8;
     width: 300px;
-    height: 65vh;
+    height: 70vh;
 
     position: absolute;
     top: 50%;
@@ -44,12 +44,53 @@ div#image-container{
 
 div#forms-container{
     text-align: center;
-    
     padding: 10%;
 }
 
-div#forms-container h1::after{
-    content: ;
+div#forms-container h1{
+    border-bottom: 2px solid #1B4039;
+    padding: 3%;
 }
+
+div#forms-container h1, div#forms-container p:nth-child(3){
+    margin-bottom: 3%;
+}
+
+div#forms-container label{
+    display: block;
+    font-weight: bold;
+}
+
+div#forms-container input{
+    text-align: center;
+
+    padding: 1%;
+
+    outline: none;
+    border: 2px solid #1B4039;
+    border-radius: 10px;
+}
+
+#submit-button{
+    display: block;
+    margin: auto;
+    margin-top: 7%;
+    padding: 2%;
+
+    width: 30%;
+    border: 2px solid #1B4039;
+    border-radius: 20px;
+
+    background-color: #36593F;
+    color: white;
+}
+
+#submit-button:hover{
+    background-color: #598C4A;
+}
+    
+
+
+
 
 
