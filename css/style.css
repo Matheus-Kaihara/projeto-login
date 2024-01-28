@@ -43,6 +43,9 @@ section{
     border-radius: 20px;
     
     filter: drop-shadow(2px 2px 5px black);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#image-container{
