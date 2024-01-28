@@ -31,6 +31,9 @@ section{
     transform: translate(-50%, -50%);
 
     border-radius: 20px;
+    
+    filter: drop-shadow(2px 2px 5px black);
+    box-shadow: inset 1px 1px 1px black;
 }
 
 div#image-container{
@@ -69,9 +72,15 @@ div#forms-container input{
     outline: none;
     border: 2px solid #1B4039;
     border-radius: 10px;
+
+    background-color: #ffffff;
 }
 
-#submit-button{
+div#forms-container input:focus-within{
+    background-color: #fdfaee;
+}
+
+div#forms-container input#submit-button{
     display: block;
     margin: auto;
     margin-top: 7%;
@@ -85,7 +94,7 @@ div#forms-container input{
     color: white;
 }
 
-#submit-button:hover{
+div#forms-container input#submit-button:hover{
     background-color: #598C4A;
 }
     
